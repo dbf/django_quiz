@@ -7,30 +7,40 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-31 22:44+0000\n"
-"PO-Revision-Date: 2019-03-07 21:12+0100\n"
-"Last-Translator: Reiner Mayers\n"
+"POT-Creation-Date: 2023-03-04 19:16+0100\n"
+"PO-Revision-Date: 2023-03-04 19:26+0100\n"
+"Last-Translator:   <>\n"
+"Language-Team: \n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Translated-Using: django-rosetta 0.7.6\n"
-"Language-Team: \n"
 "X-Generator: Poedit 2.0.6\n"
+"X-Translated-Using: django-rosetta 0.9.8\n"
 
-#: apps/true_false/models.py:11
+#: models.py
 msgid "Tick this if the question is true. Leave it blank for false."
-msgstr "Markieren Sie, wenn die Frage stimmt. Freilassen wenn falsch."
+msgstr ""
+"Markieren Sie hier, wenn die Frage stimmt. Lassen Sie frei, wenn sie falsch "
+"ist."
 
-#: apps/true_false/models.py:14
+#: models.py
 msgid "Correct"
-msgstr "Korrekt"
+msgstr "korrekt"
 
-#: apps/true_false/models.py:42
+#: models.py
+msgid "True"
+msgstr "richtig"
+
+#: models.py
+msgid "False"
+msgstr "falsch"
+
+#: models.py
 msgid "True/False Question"
-msgstr "Wahr/Falsch Frage"
+msgstr "Wahr/Falsch-Frage"
 
-#: apps/true_false/models.py:43
+#: models.py
 msgid "True/False Questions"
-msgstr "Wahr/Falsch Fragen"
+msgstr "Wahr/Falsch-Fragen"

@@ -259,7 +259,7 @@ msgstr "Fortschrittsseite Prüfling"
 
 #: templates/progress.html
 msgid "Question Category Scores"
-msgstr "Punktzahl in dieser Fragenkategorie"
+msgstr "Punktzahl je Fragenkategorie"
 
 #: templates/progress.html
 msgid "Correctly answererd"
@@ -400,7 +400,7 @@ msgstr "Prüfungstitel"
 
 #: templates/result.html
 msgid "You answered"
-msgstr "Ihre Antwort"
+msgstr "Ihre Antwort:"
 
 #: templates/result.html
 msgid "questions correctly out of"

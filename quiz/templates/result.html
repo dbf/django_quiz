@@ -34,7 +34,7 @@
       <small class="muted">{% trans "Exam title" %}: </small>
       <strong>{{ quiz.title }}</strong></p>
 
-    <p class="lead">
+    <p class="lead" style="font-size:24px; font-weight: bold;">
       {% trans "You answered" %} {{ score }} {% trans "questions correctly out of" %} {{ max_score }}, {% trans "giving you" %} {{ percent }} {% trans "percent correct" %}
     </p>
 
@@ -88,7 +88,11 @@
         <p>{{ question.explanation|linebreaksbr }}</p>
       </div>
 
-      <hr style="border-top: 5px dotted green;">
+      {% if not forloop.last %}
+        <hr style="border-top: 5px dotted green;">
+      {% else %}
+        <p></p>
+      {% endif %}
 
   {% endfor %}
 

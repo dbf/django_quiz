@@ -10,7 +10,15 @@
 
   {% if cat_scores %}
 
-  <h1>{% trans "Question Category Scores" %}</h1>
+    {% if request.user.is_authenticated %}
+        {% if request.user.get_full_name %}
+          <h2>{% trans "Question Category Scores" %} - {{ request.user.get_full_name }} ({{ request.user }})</h2>
+        {% else %}
+          <h2>{% trans "Question Category Scores" %} - {{ request.user }}</h2>
+        {% endif %}
+    {% else %}
+      <h2>{% trans "Question Category Scores" %}</h2>
+    {% endif %}
 
   <table class="table table-bordered table-striped">
 

@@ -43,10 +43,8 @@
         <p class="lead">{{ sitting.result_message }}</p>
     <hr>
     {% else %}
-        <p>{% trans "Review the questions below and try the exam again in the future"%}.</p>
+        <p>{% trans "Review the questions below and try the exam again in the future" %}.</p>
     {% endif %}
-
-    <p>{% trans "Review the questions below and try the exam again in the future"%}.</p>
 
     {% if user.is_authenticated %}
 
@@ -80,7 +78,10 @@
       {% correct_answer_for_all question %}
 
       {% if question.user_answer %}
-      <p>{% trans "Your answer" %}: {{ question|answer_choice_to_string:question.user_answer }}</p>
+      <p>
+        {% trans "Your answer" %}: <span style="font-size:20px; font-weight: bold;">
+        {{ question|answer_choice_to_string:question.user_answer }}</span>
+      </p>
       {% endif %}
 
       <p><strong>{% trans "Explanation" %}:</strong></p>

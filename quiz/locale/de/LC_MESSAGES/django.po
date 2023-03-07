@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-04 19:16+0100\n"
-"PO-Revision-Date: 2023-03-04 19:42+0100\n"
+"PO-Revision-Date: 2023-03-07 20:12+0100\n"
 "Last-Translator:   <>\n"
 "Language-Team: \n"
 "Language: de\n"
@@ -104,8 +104,8 @@ msgid ""
 "If yes, only one attempt by a user will be permitted. Non users cannot sit "
 "this exam."
 msgstr ""
-"Wenn ja wird nur ein Versuch zugelassen. Nicht angemeldete Prüflinge können an"
-" dieser Prüfung nicht teilnehmen."
+"Wenn ja wird nur ein Versuch zugelassen. Nicht angemeldete Prüflinge können "
+"an dieser Prüfung nicht teilnehmen."
 
 #: models.py
 msgid "Single Attempt"
@@ -303,7 +303,7 @@ msgstr "Fragenkategorie"
 
 #: templates/question.html
 msgid "Check"
-msgstr "Überprüfung"
+msgstr "Eingabe"
 
 #: templates/quiz/category_list.html templates/quiz/quiz_list.html
 #: templates/quiz/sitting_list.html
@@ -436,7 +436,7 @@ msgstr "von möglichen"
 
 #: templates/result.html
 msgid "Your answer"
-msgstr "Ihre Antwort"
+msgstr "Ihre Antwort war"
 
 #: templates/single_complete.html
 msgid "You have already sat this exam and only one sitting is permitted"

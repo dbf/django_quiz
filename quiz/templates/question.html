@@ -10,7 +10,7 @@
 
 {% if previous.answers %}
 
-  <p class="muted"><small>{% trans "The previous question" %}:</small></p>
+  <p class="muted">{% trans "The previous question" %}:</p>
   <p>{{ previous.previous_question }}</p>
 
   {% if previous.previous_outcome %}
@@ -18,10 +18,10 @@
   {% else %}
     <div class="alert alert-warning">
   {% endif %}
-        <p><small>
-        {% trans "Your answer was" %} </small>
+        <p>
+        {% trans "Your answer was" %}
         <strong>
-          {{ previous.previous_outcome|yesno:"correct,incorrect" }}
+          {{ previous.previous_outcome|yesno:_("correct,incorrect") }}
         </strong>
       </p>
 

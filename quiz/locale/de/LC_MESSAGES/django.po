@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-03-04 19:16+0100\n"
-"PO-Revision-Date: 2023-03-07 20:12+0100\n"
+"POT-Creation-Date: 2023-03-09 14:05+0100\n"
+"PO-Revision-Date: 2023-03-09 13:10+0100\n"
 "Last-Translator:   <>\n"
 "Language-Team: \n"
 "Language: de\n"
@@ -289,9 +289,13 @@ msgstr "Mögliche Punktzahl"
 msgid "The previous question"
 msgstr "Die vorherige Frage"
 
-#: templates/question.html
+#: templates/question.html templates/result.html
 msgid "Your answer was"
 msgstr "Ihre Antwort war"
+
+#: templates/question.html templates/result.html
+msgid "correct,incorrect"
+msgstr "richtig,falsch"
 
 #: templates/question.html
 msgid "of"
@@ -462,6 +466,3 @@ msgstr "Kategorie"
 #: templates/view_quiz_category.html
 msgid "There are no quizzes"
 msgstr "Es gibt keine Quizze"
-
-#~ msgid "Example Quiz Website"
-#~ msgstr "Beispiel Quiz Webseite"

@@ -22,20 +22,20 @@ msgstr ""
 #: models.py
 msgid "Tick this if the question is true. Leave it blank for false."
 msgstr ""
-"Markieren Sie hier, wenn die Frage stimmt. Lassen Sie frei, wenn sie falsch "
+"Markieren Sie hier, wenn die Aussage stimmt. Lassen Sie frei, wenn sie falsch "
 "ist."
 
 #: models.py
 msgid "Correct"
-msgstr "korrekt"
-
-#: models.py
-msgid "True"
 msgstr "richtig"
 
 #: models.py
+msgid "True"
+msgstr "zutreffend"
+
+#: models.py
 msgid "False"
-msgstr "falsch"
+msgstr "unzutreffend"
 
 #: models.py
 msgid "True/False Question"

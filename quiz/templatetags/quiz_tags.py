@@ -1,4 +1,5 @@
 from django import template
+from django.utils.translation import gettext_lazy as _
 
 register = template.Library()
 
@@ -21,4 +22,4 @@ def correct_answer_for_all(context, question):
 
 @register.filter
 def answer_choice_to_string(question, answer):
-    return question.answer_choice_to_string(answer)
+    return _(question.answer_choice_to_string(answer))

@@ -32,7 +32,7 @@
   <div class="card card-body" style="background-color: #fcf8e3;">
     <p>{{ previous.previous_question.explanation|linebreaksbr }}</p>
   </div>
-  <hr style="border-top: 2px dotted;">
+  <hr style="border-top: 2px dotted #3b71ca;">
 
   {% endif %}
 
@@ -65,7 +65,7 @@
 
   {% endif %}
 
-  <hr style="border-top: 5px solid green;">
+  <hr style="border-top: 5px solid #3b71ca;">
 
   {% if possible %}
 
@@ -100,7 +100,7 @@
       </div>
 
       {% if not forloop.last %}
-        <hr style="border-top: 5px dotted green;">
+        <hr style="border-top: 5px dotted #3b71ca;">
       {% else %}
         <p></p>
       {% endif %}

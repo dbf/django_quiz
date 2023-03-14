@@ -81,8 +81,8 @@
 
     {% for question in questions %}
 
-      <p class="lead">
-        {{ question.content }}
+      <p class="alert alert-dark" role="alert">
+        <strong>"{{ question.content }}"</strong>
       </p>
 
       {% correct_answer_for_all question %}
@@ -90,7 +90,7 @@
       {% if question.user_answer %}
       <p>
         {% trans "Your answer" %}: <span style="font-size:20px; font-weight: bold;">
-        {{ question|answer_choice_to_string:question.user_answer }}</span>
+        "{{ question|answer_choice_to_string:question.user_answer }}"</span>
       </p>
       {% endif %}
 
